@@ -24,6 +24,7 @@ public class inputActivity extends AppCompatActivity {
     private EditText input11;
     private EditText input12;
     private EditText input13;
+    private String concatLIB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +65,23 @@ public class inputActivity extends AppCompatActivity {
                         (String) input12.getText().toString(),
                         (String) input13.getText().toString(),
                 };
-//                goToStory.putExtra(Intent.EXTRA_TEXT,textEntered);
-                goToStory.putExtra("string",myInputs);
+                
+                concatLIB = "One of the most" + myInputs[0] +
+                "characters in fiction is named Tarzan of the "+ myInputs[1] +
+                " Tarzan was raised by a/an" + myInputs[2] +
+                " and lives in the " + myInputs[3] +
+                " jungle in the heart of darkest " + myInputs[4] +
+                " . He spends most of his time eating " + myInputs[5] +
+                " and swinging from tree to " + myInputs[6] +
+                " Whenever he gets angry, he beats on his chest and says " + myInputs[7] +
+                " !\" This is his war cry. Tarzan always dresses in " + myInputs[8] +
+                " shorts made from the skin of a/an " + myInputs[9] +
+                "and his best friend is a/an " + myInputs[10] +
+                " chimpanzee named Cheetah. He is supposed to be able to speak to elephants and" + myInputs[11] +
+                " . In the movies, Tarzan is played by " + myInputs[12];
+
+                goToStory.putExtra(Intent.EXTRA_TEXT,concatLIB);
+//                goToStory.putExtra("string",myInputs);
                 startActivity(goToStory);
             }
         });
