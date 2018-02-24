@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shymacbook.madlib.inputActivity"
+    android:rowCount="14"
+    android:columnCount="2">
+
+    <EditText
+        android:id="@+id/in_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adjective"
+        android:textSize="8dp"
+        />
+
+    <EditText
+        android:id="@+id/in_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plural-noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adjective"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="place"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plural-noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="funny noise"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adjective"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adjective"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plural-noun"
+        android:textSize="8dp"/>
+
+    <EditText
+        android:id="@+id/in_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="person's name"
+        android:textSize="8dp"/>
+
+    <Button
+        android:id="@+id/to_lib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="LIB it!"/>
+
+
+</android.widget.GridLayout>
